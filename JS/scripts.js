@@ -15,3 +15,4 @@ var password = nomeUtente + cognomeUtente + colorePreferito + numeroClasse;
 
 // Scrivi sulla pagina la password
 document.getElementById('JS').innerHTML += password;
+

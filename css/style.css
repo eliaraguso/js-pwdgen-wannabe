@@ -1,0 +1,58 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#JS {
+    margin: auto;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Quantico', sans-serif;
+    background-color: white;
+    padding: 0 100px;
+    position: relative;
+    line-height: 50px;
+}
+
+#img-eye {
+    right: -40px;
+    height: 400px;
+    position: absolute;
+    top: -180px;
+
+}
+
+#img-monkey {
+    right: 15px;
+    top: 10px;
+    position: absolute;
+    height: 30px;
+}
+
+.d-none {
+    display: none;
+}
+
+#img-eye:active + #img-monkey {
+    display: block;
+}
+
+#img-eye:active {
+    display: none;
+}
