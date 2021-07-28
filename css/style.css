@@ -6,9 +6,6 @@
 }
 
 /* Body */
-body {
-    
-}
 .container {
     display: flex;
     align-items: center;
@@ -31,11 +28,11 @@ body {
 }
 
 #img-eye {
-    right: -40px;
-    height: 400px;
+    right: -100px;
+    height: 600px;
     position: absolute;
-    top: -180px;
-
+    top: -280px;
+    transition: opacity 1.5s;
 }
 
 #img-monkey {
@@ -43,16 +40,17 @@ body {
     top: 10px;
     position: absolute;
     height: 30px;
+    transition: opacity 1.5s;
 }
 
-.d-none {
-    display: none;
+.opacity0 {
+    opacity: 0;
 }
 
 #img-eye:active + #img-monkey {
-    display: block;
+    opacity: 1;
 }
 
 #img-eye:active {
-    display: none;
+    opacity: 0;
 }
