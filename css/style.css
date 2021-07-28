@@ -29,7 +29,7 @@
 
 #img-eye {
     right: -100px;
-    height: 600px;
+    height: 80vh;
     position: absolute;
     top: -280px;
     transition: opacity 1.5s;
